@@ -1,6 +1,6 @@
-let nombre = prompt("Ingrese el Nombre")
-let apellido = prompt("Ingrese el Apellido")
-let edad = prompt("Ingrese la Edad")
+const nombre = prompt("Ingrese el Nombre")
+const apellido = prompt("Ingrese el Apellido")
+const edad = prompt("Ingrese la Edad")
 if (isNaN(nombre) && isNaN(apellido) && !isNaN(edad)){
   console.log("Usted ingresó los siguientes datos: " + nombre + " " + apellido + " " + edad)
   alert("Usted ingresó los siguientes datos: " + nombre + " " + apellido + " " + edad)
